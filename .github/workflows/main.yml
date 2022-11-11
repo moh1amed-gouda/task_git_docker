@@ -1,7 +1,7 @@
 on: 
  push:
    branches:
-    - master  
+     - master  
 
 
 
@@ -15,5 +15,6 @@ jobs:
     steps:  
       - name: 'Testing Githup action'
         run: pwd
-        - name: 'Testing Githup printing'
+        
+      - name: 'Testing Githup printing'
         run: echo mohamed
