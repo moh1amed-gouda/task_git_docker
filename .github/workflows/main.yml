@@ -15,6 +15,6 @@ jobs:
     steps:  
       - name: 'Testing Githup action'
         run: pwd
-        
-      - name: 'Testing Githup printing'
-        run: echo mohamed
+
+      - name: 'Login in dockerhup'
+        run: docker login --username mohamedgouda --password dckr_pat_sWrMN26sLrYWXKIvXI2_llnKMN0
