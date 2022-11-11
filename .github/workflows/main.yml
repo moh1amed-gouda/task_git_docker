@@ -17,4 +17,4 @@ jobs:
         run: pwd
 
       - name: 'Login in dockerhup'
-        run: docker login --username ${{ secrets.USERNAME }}  --password{{ secrets.PASSWORD }}
+        run: docker login --username ${{ secrets.USERNAME }}  --password ${{ secrets.PASSWORD }}
